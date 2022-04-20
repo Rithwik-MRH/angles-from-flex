@@ -22,7 +22,7 @@ void loop() {
   float angle = map(Rflex, flatResistance, bendResistance, 0, 90.0);
   Serial.println("Bend: " + String(angle) + " degrees");
   Serial.println();
-  Serial.println(String(angle));
+
 
   delay(1000);
 }
